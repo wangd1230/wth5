@@ -1,5 +1,6 @@
 var start = document.querySelector('.start');
 var next = document.querySelector('.next');
+var one = document.querySelector('#one');
 var score = 0;
 var c = 0;
 var status = 1;
@@ -16,6 +17,7 @@ function Question(question,a,b,c,d,correct){
 function next1() {
 	// body...
 	start.style.backgroundImage = 'url(img/question-bg.jpg)';
+	one.style.display = 'none';
 	next.style.display = 'none';
 	status = 0;
 	create();
