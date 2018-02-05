@@ -45,6 +45,8 @@ html,body{
 	margin-top: 20px;
 	margin-right: 20px;
 }
-@media screen(min-width: 400px; ) {
-	
+@media screen and (min-width: 300px) {
+    .question{
+    	height: 350px;
+    }
 }
